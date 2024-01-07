@@ -8,3 +8,4 @@ Linux environment is required to run the script, I'm using WSL2 to log-in to mul
 The servers have my public key and ~/.ssh in WSL2 has my private key with chmod 400, don't for forget chmod +x to connect.sh The script gives me freedom to SSH to servers without entring password and without including reference to my private key in SSH CLI syntax.
 
 The # symbol, in conjunction with the @ symbol within the braces, gives the length or number of elements in the array, `servers`.<br> 
+=~ is the regex (regular expression) matching operator in Bash.<br>
