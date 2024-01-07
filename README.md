@@ -10,4 +10,4 @@ The servers have my public key and ~/.ssh in WSL2 has my private key with chmod 
 The `#` symbol, in conjunction with the `@` symbol within the braces, gives the length or number of elements in the array, `servers`.<br> 
 `=~` is the regex (regular expression) matching operator in Bash.<br>
 `[[ $choice =~ ^[0-9]+$ ]]` is to confirm that numeric value has been entered by the user.<br>
-The arithmantic expression `((choice >=1 && choice <= ${#servers[@]}))` is to check that numeric value entered by the user is in the range<br>
+The arithmantic expression `((choice >=1 && choice <= ${#servers[@]}))` is to check that numeric value, entered by the user, is in the range<br>
