@@ -8,6 +8,5 @@ Linux environment is required to run the script, I'm using WSL2 to log-in to mul
 The servers have my public key and ~/.ssh in WSL2 has my private key with chmod 400, don't for forget chmod +x to connect.sh The script gives me freedom to SSH to servers without entring password and without including reference to my private key in SSH CLI syntax.
 
 `${#servers[@]}` the `#` symbol, in conjunction with the `@` symbol within the braces, gives the length or number of elements in the `servers`.<br> 
-`=~` is the regex (regular expression) matching operator in Bash.<br>
-`[[ $choice =~ ^[0-9]+$ ]]` is to confirm that numeric value has been entered by the user.<br>
+`[[ $choice =~ ^[0-9]+$ ]]` is to confirm that numeric value has been entered by the user. `=~` is the regex (regular expression) matching operator in Bash.<br>
 The arithmantic expression `((choice >=1 && choice <= ${#servers[@]}))` is to check that numeric value, entered by the user, is in the range<br>
