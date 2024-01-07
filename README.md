@@ -6,3 +6,5 @@ This shell script is for choosing a server from the list (instead of multiple de
 
 Linux environment is required to run the script, I'm using WSL2 to log-in to multiple servers in an enterprise environment.<br><br>
 The servers have my public key and ~/.ssh in WSL2 has my private key with chmod 400, don't for forget chmod +x to connect.sh The script gives me freedom to SSH to servers without entring password and without including reference to my private key in SSH CLI syntax.
+
+The # symbol, in conjunction with the @ symbol within the braces, gives the length or number of elements in the array, `servers`.<br> 
